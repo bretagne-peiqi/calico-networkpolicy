@@ -39,8 +39,9 @@ spec:
          ns: test$i
   egress:
   - to:
-    - ipBlock:
-        cidr: 172.16.0.0/14
+    - namespaceSelector:
+       matchLabels:
+         ns: test$i
     - ipBlock:
         cidr: 10.0.0.0/8
 EOF
