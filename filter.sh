@@ -9,7 +9,7 @@ set +o errexit
 del=0
 
 if [ $# != 2 ]; then
- echo "please specify pick up ns number and cluster ns number"
+ echo "please specify going-to-be-tested ns number and cluster ns number"
 fi
 
 ###delete all ns ...
@@ -77,7 +77,7 @@ done
 done
 
 ### as we created about 200 ns; it's hard to check all of them; 
-### so the idea is to pick up and check by chance
+### so the idea is to select some of them and check.
 chiff=`shuf -i 1-$2 -n $1`
 for i in $chiff; do 
 	echo "checking ns $i ..."

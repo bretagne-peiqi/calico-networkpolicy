@@ -67,7 +67,7 @@ spec:
     spec:
       containers:
       - name: iperf-server
-        image: docker-registry.saicstack.com/chenqiang/nginx-hello:v2.0
+        image: docker-registry.telecom.com/chenqiang/nginx-hello:v2.0
 EOF
 done
 
@@ -92,7 +92,7 @@ spec:
     spec:
       containers:
       - name: iperf-server
-        image: docker-registry.saicstack.com/chenqiang/nginx-hello:v2.0
+        image: docker-registry.telecom.com/chenqiang/nginx-hello:v2.0
 EOF
 done
 
@@ -116,7 +116,7 @@ spec:
     spec:
       containers:
       - name: iperf-server
-        image: docker-registry.saicstack.com/chenqiang/nginx-hello:v2.0
+        image: docker-registry.telecom.com/chenqiang/nginx-hello:v2.0
 EOF
 done
 
@@ -141,7 +141,7 @@ spec:
     spec:
       containers:
       - name: iperf-server
-        image: docker-registry.saicstack.com/chenqiang/nginx-hello:v2.0
+        image: docker-registry.telecom.com/chenqiang/nginx-hello:v2.0
 EOF
 done
 
